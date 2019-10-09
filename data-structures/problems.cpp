@@ -19,21 +19,25 @@ struct TreeNode {
 };
 
 // Linked list problem
+// Given a list of integers and an integer k, repeatedly remove the kth integer from the list until only one is left.
 int problem(vector<int>& arr, int k) {
     return 0;
 }
 
 // Stack problem
+// Given a string, remove all pairs of adjacent duplicate letters until there are no longer any left.
 string removeDuplicates(string S) {
     return "Please implement me";
 }
 
 // Hashmap problem
+// Given a list of numbers and a target, find the number of pairs of list elements that equal the target.
 int getPairs(vector<int>& arr, int target) {
     return 0;
 }
 
-
+// Tree problem
+// Given a tree, return a breadth-first traversal of nodes.
 vector<int> bfs(TreeNode* root) {
     return vector<int>();
 }
