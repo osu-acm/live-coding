@@ -28,10 +28,10 @@ int problem(vector<int>& arr, int k) {
 	it->val = arr[i];
     }
     it->next = head->next;
-    it = head;
+    it = it->next;
 
     while (it->next != it) {
-	for (int i = 0; i < k-1; i++)
+	for (int i = 0; i < k-2; i++)
 	    it = it->next;
 	Node* t = it->next->next;
 	delete [] it->next;
